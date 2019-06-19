@@ -86,6 +86,7 @@ nav.main-nav a.cta {
 	border-bottom: none;
 	border-radius: 20px;
 	white-space: nowrap;
+	text-transform: none;
 }
 
 nav.main-nav a.cta:hover {
