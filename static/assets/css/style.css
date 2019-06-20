@@ -65,7 +65,7 @@ nav.main-nav {
 	background: #fff;
 	background: rgba(255,255,255,.90);
 	margin: 0 auto;
-	text-align: right;
+	text-align: center;
 	z-index: 100;
 }
 
@@ -81,7 +81,7 @@ nav.main-nav a {
 nav.main-nav a.cta {
 	background: #fff;
 	color: #993333;
-	padding: 6px 14px;
+	padding: 2px 10px;
 	border: 2px solid #993333;
 	border-bottom: none;
 	border-radius: 20px;
