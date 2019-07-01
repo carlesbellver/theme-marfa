@@ -348,6 +348,12 @@ Post List
 	line-height: 1.35;
 }
 
+/* Pagination links */
+
+.extra-pagination { text-align: center; }
+span.older { padding-right: 2rem;}
+span.newer { padding-left: 2rem; }
+
 /* Footer */
 
 footer #wrapper {
