@@ -1,14 +1,17 @@
 {{ $pag := $.Paginator }}
 
 <nav id="post-nav">
-     {{ if $pag.HasNext }}
+    {{ if $pag.HasNext }}
         <span class="older">
             <a href="{{ $pag.Next.URL }}" title="Older Posts">
                 <span class="arrow">←</span> Older Posts 
             </a>
         </span>
     {{ end }}
-   {{ if $pag.HasPrev }}
+    <span class="page-number">
+        {{ $pag.PageNumber }} / {{ $pag.TotalPages }}
+    </span>
+    {{ if $pag.HasPrev }}
         <span class="newer">
             <a href="{{ $pag.Prev.URL }}" title="Newer Posts">
                  Newer Posts <span class="arrow">→</span>
